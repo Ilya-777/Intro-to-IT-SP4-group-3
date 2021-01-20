@@ -54,17 +54,17 @@ p {
 #name {
   float: left;
   }
-#contactDetails {
+#teamMembers {
   float: right;
 }
 
-#contactDetails ul {
+#teamMembers ul {
   list-style-type: none;
   font-size: 0.9em;
   margin-top: 2px;
 }
 
-#contactDetails ul li {
+#teamMembers ul li {
   margin-bottom: 3px;
   color: #0B132B;
 
