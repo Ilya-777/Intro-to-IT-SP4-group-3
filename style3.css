@@ -1,4 +1,4 @@
-html, body {background: #191A24; font-family: 'lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+html, body {background: #08090C; font-family: 'lato', helvetica, arial, sans-serif; font-size: 16px; color: #EAEAEA;}
 p {
  font-size: 1em;
  line-height: 1.4em;
@@ -11,13 +11,13 @@ p {
  #cv {
     width: 90%;
    max-width: 800px;
-   background: #202e32;
+   background: #182225;
    margin: 30px auto;
  }
 
 .mainDetails {
   padding: 25px 35px;
-  border-bottom: 2px solid #5BC0BE;
+  border-bottom: 2px solid #286766;
   background: ##EAEAEA;
 }
 
@@ -66,7 +66,7 @@ p {
 
 #teamMembers ul li {
   margin-bottom: 3px;
-  color: #0B132B;
+  color: ##F8F7FF;
 
 section: {
  border-top: 1px solid #5BC0BE;
@@ -83,25 +83,30 @@ section:last-child {
 
 .sectionTitle h1 {
   font-family: 'Rokkitt', Helvetica, arial, sans-serif;
-  font-style: italic;
   font-size: 1.5em;
+  font-style: italic;
   color: #EAEAEA;
 }
-
 
 .sectionContent h2 {
   font-family: 'Rokkitt', Helvetica, arial, sans-serif;
   font-size: 1.5em;
+  color: #EAEAEA;
   margin-bottom: -2px;
 }
 
 .sectionContent h3 {
   font-family: 'Rokkitt', Helvetica, arial, sans-serif;
+  font-size: 1.5em;
+  color: #EAEAEA;
+  margin-bottom: -2px;
+}
+.sectionContent h4 {
+  font-family: 'Rokkitt', Helvetica, arial, sans-serif;
   font-size: 1.1em;
   color: #EAEAEA;
   margin-bottom: -2px;
 }
-
 .sectionContent img {
   width: 75%;
   height:auto;
