@@ -281,24 +281,41 @@
   <article>
       <div class="sectionTitle">
             <h1>Project Ideas - Automated Greenhouse</h1>
+            <h1>Monitoring microclimate conditions to increase growth</h1>
             </div>
           <div class="sectionContent">
             <h3>Overview</h3>
-              <h4>insert here</h4>
-              <p> </p>
+              <p> The group project is an automated climate control attachment that can be fitted to small commercially available greenhouses that are approximately 1m x 1m x 1.5m and costing between $30 - $60 at Bunnings and similar big box hardware warehouse.
+                The automated control unit is driven by an Arduino microcontroller and contains temperature, humidity, and soil moisture content sensors. These sensors relay information inside the unit to the Arduino which then controls an inlet fan and a water source to maintain predetermined conditions by the user.
+                The device is aimed at the gardening enthusiast with the goal to simplify plant care though automation and to provide an ideal growth environment for potted plants. It is simple, low cost, and is portable and lightweight for ease of positioning around the garden or balcony.</p>
               <br>
+              <img src="greenhouse 1.png" alt="greenhouse as supplied"/>
+              <p>Low cost greenhouse as supplied from Bunnings
+
               <h3>Motivation</h3>
-                <h4>insert here</h4>
-                <p> </p>
-                  <br>
+              <p>The current global pandemic has obligated people to stay at home more and many have turned to hobbies and other housebound activities for entertainment. This is evident with increased revenues from large retailers of household and gardening supplies in Australia  and the booming plant bazaars, nurseries and increases in online sellers throughout Bangkok. The increase in gardening popularity is not only from those with a garden but also from apartment dwellers growing plants indoor or on the balcony. The most popular plants during this period are ornamental due to their beauty and value. These types of plants require extra care to maintain optimal leaf, shoot and root growth with the slightest deviation ruining the appearance of the decorative foliage.
+              The automation of garden care processes is possible using inexpensive sensors, microcontrollers and other simple hardware. This allows conditions inside the greenhouse to be monitored and maintained for the users and their plants benefit from the optimal conditions it provides.  </p>
+
                 <h3>Description</h3>
-                  <h4>insert here</h4>
-                  <p> </p>
-                    <br>
+                <p>Many plants species are grown as a hobby because of their beauty, popularity, and rarity. This rarity is due to not being native to the local environment and are either sourced from other parts of the country or overseas. The problem with growing these types of plants is that local environmental conditions may not be optimal for their growth. Therefore, increased maintenance is required to maintain plant health and a visually appealing foliage.
+                  Additionally, free space around the home may be subjected to extremes of sunlight or shade that are unfavourable for growing plants. This is where a controlled environment offered by an automated greenhouse can be a solution. It can increase the range of plant species that can be grown in the local environment and is achieved by tailoring the conditions in the greenhouse specifically to the plant’s requirements. Additionally, potted plants can be cycled through the greenhouse as a nurturing boost before being placed back into areas where they can have maximum viewing pleasure.</p>
+                <p>The focus of the project is not on the overall greenhouse structure due to a large variety of small, cheap, and portable versions already available on the marked. The projects focus is to provide an additional unit that can be attached to the front of a prebought greenhouse with simple modifications, connected to a power and water source, and create a stable environment tailored to the user’s requirements.
+                  Through automation, the greenhouse will measure the greenhouse conditions and apply resources as required to maintain a predetermined condition. Maintaining soil moisture content is achieved by timing the opening a sprinkler in the early morning or evening as required to increase moisture but not humidity. Humidity is controlled by opening a misting spray during the warmer parts of the day or turning on a ventilation fan. Temperature is controlled by operating a heating lamp or fan, and lighting is controlled by manipulating a shade blind. Soil nutrient content could also be available however the sensor would have to be manually moved from pot to pot. For simplicity, these features can be added or removed as components.  </p>
+                  <p>The automation of these processes also allows for the capacity to capture data to SD card or transmit data via WIFI which enables the user to begin with a benchmark and then experiment with different greenhouse conditions to find optimal growth. This information could also be shared with other users of similar systems and open discussions related to best practice or find solutions to remedy problems. Further expansions could be related to web based, monitoring, control, and forum discussion. While the options for variations to parameters are nearly endless, it could include pre-installed settings allowing it for plug and play which would make it more commercially appealing. Condition settings could also be manipulated by enthusiasts to achieve a better outcome or grow a larger variety of species. </p>
+
                   <h3>Tools & Tech</h3>
-                    <h4>insert here</h4>
-                    <p> </p>
-                    <br>
+                    <p>The automated greenhouse is based on inexpensive kit form greenhouses available at most big box hardware outlets or online retailers. The size is based on the popular 1m x 1m x 1.5 model and could be scaled up slightly to accommodate larger models available such as 1.50m x 1.50m x 1.95m, however retaining a small footprint and portability is one of the key objectives.
+                      To monitor the conditions inside the greenhouse, readily available low-cost sensors will be used to measure soil moisture content, humidity, and temperature. (Appendix 1). The sensor data will be input to an Arduino which will then output signals to switch relays which will operate water pumps, water solenoid valves, fan, and a heating lamp. The unit is triangular shaped and is designed to fit into the gable on the front of the greenhouse. This will contain the microcontroller, sensors and relays and the conditions inside will be displayed on the LCD at the front. The soil sensor will be placed in a pot of the user’s choice and misting sprays attached to the top of the greenhouse by the user. Power is supplied by a normal power point, however it could also be adapted to use a battery and solar cell.
+                      The unit can be broken down into several components and it is possible to add each component in stages as the user desires. This is simply done by attaching the connectors from the new sensor or other device to the Arduino and updating the firmware via PC.
+                      WIFI connectivity is also a planned feature with the addition of the low cost ESP8266 WIFI Module and opens many possibilities for user interaction.</p>
+                      <img src="project module.jpg" alt="Automation module"style="width:700px;height:auto;">
+                      <p> greenhouse module</p>
+                      <br>
+                      <img src="greenhouse 2.png" alt="greenhouse with module fitted"/>
+                      <p>Greenhouse with module fitted</p>
+
+                                        <br>
+
                     <h3>Skills</h3>
                       <h4>insert here</h4>
                       <p> </p>
