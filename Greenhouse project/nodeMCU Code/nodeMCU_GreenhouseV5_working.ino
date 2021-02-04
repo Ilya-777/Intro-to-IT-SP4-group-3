@@ -1,6 +1,6 @@
 //working temperature, humidity, soil sensor, fan relay, pump relay and data to BLYNK app. Submit.
-#include <LiquidCrystal_I2C.h>
-#include <Wire.h>
+#include <LiquidCrystal_I2C.h>  // LCD library
+#include <Wire.h> // LCD library for nodeMCU allocation of SDA and SCL pins
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h> //ESP library
