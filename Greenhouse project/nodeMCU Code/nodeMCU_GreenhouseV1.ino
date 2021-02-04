@@ -1,4 +1,4 @@
-//merge arduino code to nodeMCU code
+//merge Arduino code to nodeMCU code
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -11,7 +11,7 @@ int relayPinPump = 13; //relay for water pump, green
 int sensorVal;
 int percentage;
 
-char auth[] = "gCLtm3EcoBpMG3mSaYSzSHh4_BWo_c7I";
+char auth[] = "xxxxx";
 char ssid[] = "CASA_2G";
 char pass[] = "Jasmine777";
 
