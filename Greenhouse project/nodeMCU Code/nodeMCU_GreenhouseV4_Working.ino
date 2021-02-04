@@ -15,7 +15,7 @@ int relayPinPump = 13; // pin number for water pump relay
 const int dry = 643; // value for dry sensor, 0%
 const int wet = 296; // value for wet sensor, 100%
 
-char auth[] = "ssJ0DkToCt1cki5H07DZ1WYBUEGBCuxk"; // BLYNK Automated greenhouse project
+char auth[] = "xxxxx"; // BLYNK Automated greenhouse project
 char ssid[] = "CASA_2G";
 char pass[] = "Jasmine777";
 
